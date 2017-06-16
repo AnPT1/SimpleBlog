@@ -1,0 +1,20 @@
+<div class='container-fluid'>
+        <div class='row text-center'>
+            <div class="col-md-6 col-md-offset-3">
+                <div class="col-md-12 form-group">
+                    <p>Login</p>
+                </div>
+                <div class="col-md-12 form-group">
+                    <label>UserName</label>
+                    <input type="text" [(ngModel)]="userName" placeholder="" />
+                </div>
+                <div class="col-md-12 form-group">
+                    <label>Password</label>
+                    <input type="password" [(ngModel)]="password" placeholder="" />
+                </div>
+                <div class="col-md-12 form-group text-center">
+                    <input type="button" class="btn btn-primary" (click)="login()" value="Login" />
+                </div>
+            </div>
+        </div>
+</div>

@@ -1,0 +1,41 @@
+.main-nav-top 
+{
+    background-color: #028fcc;
+    color: white;
+    padding: 20px;
+}
+
+.main-nav-top a 
+{
+    color: white;
+}
+
+.blog-title 
+{
+    font-size: x-large;
+    font-weight: bold;
+}
+a:link {
+    text-decoration: none;
+}
+.logo
+{
+    font-size:xx-large;
+}
+
+.login-button {
+    padding: 8px 10px;
+    background-color: #028fcc;
+    border:1px solid white;
+    border-radius:4px;
+
+}
+
+
+    .login-button:hover {
+        background-color: #48b8e9;
+    }
+
+    .login-button:active {
+        background-color: #028fcc;
+    } 
